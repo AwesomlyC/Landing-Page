@@ -13,15 +13,46 @@ body {
       font-weight: 900;
 
 }
+.hero-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px; 
+}
+.hero-container .small-content{
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 450px;
+}
+.hero-container .sign-up{
+  padding: 6px 24px;
+  border-radius: 12px;
+  border:6px;
+  background-color: #3882F6;
+  color:#E5E7EB;
+  text-align: center;
+}
+.hero-container .image-placeholder {
+  background-color: gray;
+  width: 600px;
+  height: 200px;
+  font-size: 14px;
+  font-weight: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-  .header {
+.header {
     font-size: 24px;
     display: flex;
     font-weight: bold;
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    padding-left: 250px;
+    padding-bottom: 75px;
 }
 .header .links{
     display: flex;
